@@ -1,0 +1,75 @@
+* {
+	box-sizing: border-box;
+	font-family: comic sans ms;
+}
+body {
+	background-color: #2F4F4F;
+}
+#box {
+	width: 100%;
+}
+h1 {
+	text-align: center;
+	text-decoration: underline;
+	margin-bottom: 60px;
+	color: white;
+}
+#box {
+	width: 100%;
+}
+.new {
+	width: 100%;
+	margin-right: 0.7%;
+	margin-left: 0.6%;
+	float: left;
+	background-color: #F5DEB3;
+	border: 1px solid black;
+}
+h2 {
+	position: relative;
+	padding-right: 15px;
+	padding-left: 15px;
+	float: right;
+	margin: 0px;
+}
+#dummy1, #dummy2, #dummy3 {
+	padding: 15px;
+	clear: both;
+	float: left;
+}
+#edge1{
+	background-color: black;
+	color: white;
+	font-size: 120%
+}
+#edge2 {
+	background-color: #A52A2A;
+	color: white;
+	font-size: 120%
+}
+#edge3 {
+	background-color: #8B008B;
+	color: white;
+	font-size: 120%
+}
+
+@media (min-width: 992px) {
+	#sub1, #sub2, #sub3{
+		width: 32%;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	#sub1, #sub2 {
+		width: 47%;
+	}
+	#sub3 {
+		width: 95%;
+		margin-top: 10px;
+	}
+}
+@media (max-width: 767px) {
+	#sub1, #sub2, #sub3 {
+		width: 98.5%;
+		margin-bottom: 10px;
+	}
+}
